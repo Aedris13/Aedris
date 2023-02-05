@@ -1,3 +1,12 @@
+/datum/armor/cattleman_sec/astartes
+	melee = 80
+	bullet = 40
+	laser = 20
+	energy = 20
+	fire = 80
+	acid = 80
+	wound = 20
+
 /obj/item/clothing/suit/chaplainsuit/armor/astartes
 	icon = 'modular_aedris/warhammer/icons/obj/clothing/warhammer.dmi'
 	worn_icon = 'modular_aedris/warhammer/icons/mob/onmob/wh_suits.dmi'
@@ -8,15 +17,6 @@
 	clothing_flags = BLOCKS_SHOVE_KNOCKDOWN
 	strip_delay = 80
 	equip_delay_other = 60
-
-/datum/armor/chaplainsuit_armor/astartes
-	melee = 80
-	bullet = 40
-	laser = 20
-	energy = 20
-	fire = 80
-	acid = 80
-	wound = 20
 
 /obj/item/clothing/suit/chaplainsuit/armor/astartes/ravcap
 	name = "black templar suit"
