@@ -1673,7 +1673,7 @@
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/delivery/red,
 /obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_y = 6
 	},
 /turf/open/floor/iron/dark,
@@ -3343,7 +3343,7 @@
 	pixel_x = -8;
 	pixel_y = 8
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
@@ -3798,7 +3798,7 @@
 /area/station/maintenance/aft/upper)
 "aOS" = (
 /obj/effect/decal/cleanable/cobweb,
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /turf/open/floor/iron,
 /area/station/maintenance/fore/upper)
@@ -4442,7 +4442,7 @@
 /area/station/command/captain_kitchen)
 "bbQ" = (
 /obj/structure/table,
-/obj/item/shield/riot/buckler,
+/obj/item/shield/buckler,
 /turf/open/floor/plating,
 /area/station/maintenance/port/upper)
 "bbS" = (
@@ -6334,8 +6334,8 @@
 /area/station/medical/chemistry)
 "bCC" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner{
@@ -8406,7 +8406,7 @@
 /obj/structure/bed/dogbed{
 	name = "Walter's Dogbed"
 	},
-/mob/living/simple_animal/pet/dog/bullterrier{
+/mob/living/basic/pet/dog/bullterrier{
 	desc = "It's Walter, he bites criminals just as well as he bites toddlers";
 	name = "Walter";
 	real_name = "Walter"
@@ -9440,8 +9440,8 @@
 /obj/item/clothing/neck/cloak/rd,
 /obj/item/clothing/neck/mantle/rdmantle,
 /obj/item/clothing/suit/hooded/wintercoat/science/rd,
-/obj/item/clothing/head/beret/science/fancy/rd,
-/obj/item/clothing/head/beret/science/fancy/rd/alt,
+/obj/item/clothing/head/beret/science/fancy,
+/obj/item/clothing/head/beret/science/rd/alt,
 /turf/open/floor/carpet/purple,
 /area/station/command/heads_quarters/rd)
 "cJy" = (
@@ -14260,8 +14260,8 @@
 	dir = 8
 	},
 /obj/structure/curtain/cloth,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/carpet/black,
 /area/station/service/barber)
 "ewm" = (
@@ -15091,7 +15091,7 @@
 /area/station/maintenance/abandon_wrestle)
 "eNl" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/restraints/handcuffs,
 /obj/item/clothing/mask/muzzle,
 /obj/effect/decal/cleanable/dirt,
@@ -15202,7 +15202,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
-/obj/item/clothing/gloves/color/latex{
+/obj/item/clothing/gloves/latex{
 	pixel_x = 4;
 	pixel_y = 9
 	},
@@ -17011,8 +17011,8 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
@@ -21633,7 +21633,7 @@
 /area/station/maintenance/port/upper)
 "hgB" = (
 /obj/structure/table/glass,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/healthanalyzer,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/science,
@@ -22391,7 +22391,7 @@
 /turf/open/floor/carpet/black,
 /area/station/service/barber)
 "htQ" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/lower)
 "hul" = (
@@ -39770,7 +39770,6 @@
 "nsb" = (
 /obj/machinery/door/airlock/research{
 	name = "Bomb Assembly";
-	req_access_txt = "8"
 	},
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
@@ -46365,8 +46364,8 @@
 /area/station/maintenance/abandon_diner)
 "pHK" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
@@ -49217,8 +49216,8 @@
 /area/station/command/meeting_room/council)
 "qHt" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/glasses/science,
 /obj/machinery/status_display/evac/directional/west,
 /turf/open/floor/iron/dark,
@@ -55772,7 +55771,7 @@
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /obj/item/gun/ballistic/automatic/pistol/toy/riot,
 /obj/item/melee/baton,
-/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/toggleable/riot,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
@@ -55959,7 +55958,7 @@
 /area/station/medical/medbay/central)
 "sVL" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/hemostat,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/abandon_exam/cat)
@@ -66557,7 +66556,7 @@
 /turf/open/floor/iron,
 /area/station/science/ordnance)
 "wJA" = (
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/suit/apron/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/surgical_drapes,
