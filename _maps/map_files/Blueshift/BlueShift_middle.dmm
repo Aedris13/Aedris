@@ -232,7 +232,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
@@ -3396,7 +3396,7 @@
 	dir = 8
 	},
 /obj/structure/bed/dogbed/lia,
-/mob/living/simple_animal/hostile/carp/lia,
+/mob/living/basic/carp/pet/lia,
 /obj/machinery/light/directional/east,
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/dark,
@@ -6162,7 +6162,7 @@
 /area/station/security/brig)
 "bwF" = (
 /obj/structure/table/glass,
-/obj/item/reagent_containers/cup/glass/britcup,
+/obj/item/reagent_containers/cup/glass/mug/britcup,
 /turf/open/floor/wood,
 /area/station/hallway/primary/central)
 "bwI" = (
@@ -7278,9 +7278,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/janitorialcart,
-/obj/structure/janitorialcart,
-/obj/structure/janitorialcart,
+/obj/structure/mop_bucket/janitorialcart,
+/obj/structure/mop_bucket/janitorialcart,
+/obj/structure/mop_bucket/janitorialcart,
 /obj/item/pushbroom,
 /obj/item/pushbroom,
 /obj/item/pushbroom,
@@ -7534,10 +7534,10 @@
 /obj/item/clothing/suit/armor/hos/navyblue,
 /obj/item/clothing/shoes/cowboy/black,
 /obj/item/clothing/head/hats/hos,
-/obj/item/clothing/head/hos/beret,
-/obj/item/clothing/head/hos/beret/peacekeeper,
-/obj/item/clothing/head/hos/beret/navyhos,
-/obj/item/clothing/head/hos/beret/faction,
+/obj/item/clothing/head/hats/hos/beret,
+/obj/item/clothing/head/beret/sec/peacekeeper,
+/obj/item/clothing/head/hats/hos/beret/navyhos,
+/obj/item/clothing/head/hats/hos/beret/faction,
 /obj/item/clothing/suit/armor/hos/trenchcoat/winter,
 /obj/item/clothing/neck/cloak/hos,
 /obj/item/clothing/neck/mantle/hosmantle,
@@ -8340,7 +8340,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
@@ -10502,8 +10502,8 @@
 	pixel_x = -9;
 	pixel_y = 12
 	},
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/healthanalyzer{
@@ -13877,7 +13877,7 @@
 	pixel_x = 8;
 	pixel_y = 15
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/service/barber)
 "ebF" = (
@@ -18111,9 +18111,9 @@
 /obj/structure/closet/crate/freezer{
 	name = "limb storage"
 	},
-/obj/item/bodypart/l_arm,
-/obj/item/bodypart/r_leg,
-/obj/item/bodypart/l_leg/digitigrade,
+/obj/item/bodypart/arm/left,
+/obj/item/bodypart/leg/right,
+/obj/item/bodypart/leg/right/digitigrade,
 /obj/item/bodypart/head,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/dirt,
@@ -18839,13 +18839,13 @@
 /turf/open/floor/wood,
 /area/station/hallway/primary/central)
 "fMz" = (
-/obj/machinery/computer/chef_order,
+/obj/machinery/computer/order_console/cook,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "fNc" = (
 /obj/structure/lattice,
-/obj/item/stack/ore/stone,
+/obj/item/stack/ore/glass,
 /turf/open/space/openspace,
 /area/space/nearstation)
 "fNt" = (
@@ -20844,7 +20844,7 @@
 /obj/structure/closet/crate/freezer{
 	name = "organ storage"
 	},
-/obj/item/organ/internal/tongue/tied,
+/obj/item/organ/internal/tongue,
 /obj/item/organ/internal/lungs/toxin,
 /obj/item/organ/external/genital/penis,
 /obj/item/organ/internal/heart,
@@ -22102,7 +22102,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/engineering)
 "gNu" = (
-/obj/machinery/gun_vendor,
+/obj/machinery/vending/security,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark/side,
 /area/station/security/lockers)
@@ -22207,7 +22207,7 @@
 /area/station/security/warden)
 "gOK" = (
 /obj/effect/decal/cleanable/glass,
-/obj/item/stack/ore/stone,
+/obj/item/stack/ore/glass,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "gOL" = (
@@ -25413,7 +25413,7 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "hWV" = (
-/obj/structure/janitorialcart{
+/obj/structure/mop_bucket/janitorialcart{
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
@@ -26246,27 +26246,27 @@
 "ikF" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/delivery,
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = -5;
 	pixel_y = 5
 	},
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = 6;
 	pixel_y = 5
 	},
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = -5;
 	pixel_y = 1
 	},
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = 6;
 	pixel_y = 1
 	},
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = -5;
 	pixel_y = -3
 	},
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = 6;
 	pixel_y = -3
 	},
@@ -27930,7 +27930,7 @@
 /area/station/service/bar)
 "iLa" = (
 /obj/structure/bed/dogbed/mcgriff,
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/red,
 /area/station/security/warden)
@@ -35663,7 +35663,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/dark,
 /area/station/security/interrogation)
 "lnt" = (
@@ -37094,7 +37094,7 @@
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/athletic_mixed,
 /obj/item/clothing/head/costume/sombrero,
-/obj/item/clothing/head/helmet/justice,
+/obj/item/clothing/head/helmet/toggleable/justice,
 /obj/item/clothing/head/costume/rice_hat,
 /obj/item/clothing/mask/joy,
 /obj/item/clothing/mask/luchador/tecnicos,
@@ -38768,7 +38768,7 @@
 	name = "organ storage"
 	},
 /obj/effect/turf_decal/bot,
-/obj/item/bodypart/l_arm,
+/obj/item/bodypart/arm/left,
 /obj/item/organ/internal/eyes,
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/organ/external/tail/lizard,
@@ -44196,7 +44196,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "oka" = (
-/obj/item/stack/ore/stone,
+/obj/item/stack/ore/glass,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "oko" = (
@@ -52250,7 +52250,7 @@
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/machinery/light/small/directional/north,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/dark,
 /area/station/security/detectives_office)
 "qQV" = (
@@ -52796,7 +52796,7 @@
 /area/station/hallway/primary/port)
 "qZX" = (
 /obj/structure/table,
-/obj/item/organ/internal/stomach/robot_ipc{
+/obj/item/organ/internal/stomach/synth{
 	pixel_y = 6
 	},
 /obj/item/organ/internal/stomach/cybernetic/tier2,
@@ -70135,7 +70135,7 @@
 /obj/item/clothing/under/rank/engineering/chief_engineer,
 /obj/item/clothing/under/rank/engineering/chief_engineer/skyrat/imperial,
 /obj/item/clothing/head/hats/imperial/ce,
-/obj/item/clothing/head/utility/hardhat/weldhat/white,
+/obj/structure/closet/bombcloset/white,
 /obj/item/clothing/suit/hooded/wintercoat/engineering/ce,
 /obj/item/clothing/neck/cloak/ce,
 /obj/item/clothing/neck/mantle/cemantle,
@@ -70518,7 +70518,7 @@
 /turf/open/floor/iron/dark,
 /area/station/common/locker_room_shower)
 "wVe" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /obj/effect/turf_decal/bot,
 /obj/structure/extinguisher_cabinet/directional/north,
