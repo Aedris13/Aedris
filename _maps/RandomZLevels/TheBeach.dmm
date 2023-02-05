@@ -964,6 +964,11 @@
 /obj/item/clothing/glasses/heat,
 /turf/open/misc/beach/sand,
 /area/awaymission/beach)
+"dR" = (
+/obj/item/clothing/shoes/wraps/flipperfeet,
+/obj/item/clothing/shoes/wraps/flipperfeet,
+/turf/open/misc/beach/coastline_t,
+/area/awaymission/beach)
 "hw" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/bottle/ale,
@@ -971,6 +976,10 @@
 /area/awaymission/beach)
 "iy" = (
 /obj/item/toy/seashell,
+/turf/open/misc/beach/coastline_t,
+/area/awaymission/beach)
+"jK" = (
+/obj/item/clothing/shoes/wraps/flipperfeet,
 /turf/open/misc/beach/coastline_t,
 /area/awaymission/beach)
 "kK" = (
@@ -1055,6 +1064,10 @@
 	},
 /turf/open/misc/beach/sand,
 /area/awaymission/beach)
+"zb" = (
+/obj/item/clothing/glasses/fake_sunglasses/scoobagoggles,
+/turf/open/misc/beach/sand,
+/area/awaymission/beach)
 "zc" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/bottle/sake{
@@ -1087,6 +1100,13 @@
 	pixel_y = 5
 	},
 /turf/open/misc/beach/coastline_t/sandwater_inner,
+/area/awaymission/beach)
+"Dt" = (
+/obj/item/storage/belt/mailbelt/springducky,
+/obj/item/storage/belt/mailbelt/springducky,
+/obj/item/storage/belt/mailbelt/springducky,
+/obj/item/storage/belt/mailbelt/springducky,
+/turf/open/misc/beach/sand,
 /area/awaymission/beach)
 "EG" = (
 /obj/item/flashlight/flare/torch{
@@ -1142,6 +1162,10 @@
 /obj/item/reagent_containers/cup/glass/bottle/beer,
 /turf/open/misc/beach/sand,
 /area/awaymission/beach)
+"NH" = (
+/obj/item/storage/belt/mailbelt/springducky,
+/turf/open/water/beach/biodome,
+/area/awaymission/beach)
 "QQ" = (
 /obj/item/reagent_containers/cup/glass/bottle/rum{
 	pixel_y = 2
@@ -1174,6 +1198,10 @@
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
 /turf/open/floor/wood,
+/area/awaymission/beach)
+"TL" = (
+/obj/item/storage/belt/mailbelt/springducky,
+/turf/open/misc/beach/sand,
 /area/awaymission/beach)
 "Vn" = (
 /obj/effect/turf_decal/sand,
@@ -6086,7 +6114,7 @@ ak
 ak
 ak
 ak
-ak
+TL
 ak
 ap
 aY
@@ -6730,7 +6758,7 @@ ba
 ak
 ak
 cP
-ak
+TL
 ap
 ar
 ac
@@ -6834,7 +6862,7 @@ bd
 cC
 cH
 ba
-ak
+zb
 ak
 cO
 ak
@@ -6947,7 +6975,7 @@ ak
 ak
 ap
 ar
-ac
+NH
 ac
 ac
 ac
@@ -7052,7 +7080,7 @@ ak
 ak
 cO
 ak
-ap
+jK
 ar
 ac
 ac
@@ -7156,10 +7184,10 @@ cE
 cH
 ba
 ak
-ak
+zb
 cQ
 ak
-ap
+dR
 ar
 ac
 ac
@@ -7266,7 +7294,7 @@ ak
 ak
 cO
 ak
-ap
+jK
 ar
 ac
 ac
@@ -7369,11 +7397,11 @@ bd
 oE
 cH
 ba
-ak
+zb
 ak
 cR
 ak
-ap
+jK
 ar
 ac
 ac
@@ -7483,7 +7511,7 @@ ak
 ap
 ar
 ac
-ac
+NH
 ac
 ac
 ac
@@ -7800,7 +7828,7 @@ ba
 ak
 ak
 cT
-ak
+TL
 ap
 ar
 ac
@@ -7906,7 +7934,7 @@ ba
 ba
 ak
 ak
-ak
+Dt
 bo
 aq
 ar
