@@ -18843,11 +18843,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
-"fNc" = (
-/obj/structure/lattice,
-/obj/item/stack/ore/glass,
-/turf/open/space/openspace,
-/area/space/nearstation)
 "fNt" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
@@ -44195,10 +44190,6 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
-"oka" = (
-/obj/item/stack/ore/glass,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "oko" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/side{
@@ -70135,7 +70126,6 @@
 /obj/item/clothing/under/rank/engineering/chief_engineer,
 /obj/item/clothing/under/rank/engineering/chief_engineer/skyrat/imperial,
 /obj/item/clothing/head/hats/imperial/ce,
-/obj/structure/closet/bombcloset/white,
 /obj/item/clothing/suit/hooded/wintercoat/engineering/ce,
 /obj/item/clothing/neck/cloak/ce,
 /obj/item/clothing/neck/mantle/cemantle,
@@ -95109,7 +95099,7 @@ rKt
 dis
 qgd
 nTy
-oka
+nbi
 jDM
 sSW
 nTy
@@ -95637,7 +95627,7 @@ pTg
 alg
 jDM
 jDM
-oka
+nbi
 alg
 alg
 alg
@@ -96134,7 +96124,7 @@ jDM
 mXf
 dis
 jUc
-fNc
+bFy
 dqn
 cti
 rRB
