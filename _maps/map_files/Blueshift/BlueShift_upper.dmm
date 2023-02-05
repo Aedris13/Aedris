@@ -9239,7 +9239,6 @@
 "cET" = (
 /obj/machinery/door/airlock/research{
 	name = "Bomb Assembly";
-	req_access_txt = "8"
 	},
 /obj/machinery/door/firedoor/heavy,
 /obj/structure/disposalpipe/segment,
@@ -18746,7 +18745,7 @@
 /obj/item/clothing/head/caphat/beret/alt,
 /obj/item/clothing/head/hats/caphat/parade,
 /obj/item/clothing/head/hats/caphat,
-/obj/item/clothing/gloves/color/captain,
+/obj/item/clothing/gloves/captain,
 /obj/item/clothing/neck/mantle/capmantle,
 /turf/open/floor/carpet/blue,
 /area/station/command/heads_quarters/captain/private)
@@ -27745,7 +27744,7 @@
 /area/station/maintenance/abandon_diner)
 "jhO" = (
 /obj/structure/table,
-/obj/item/modular_computer/tablet/pda/clown,
+/obj/item/modular_computer/pda/clown,
 /turf/open/floor/noslip,
 /area/station/maintenance/gag_room)
 "jif" = (
@@ -41243,7 +41242,6 @@
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Toxins Maintenance";
-	req_access_txt = "8"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /turf/open/floor/plating,
@@ -41961,7 +41959,7 @@
 "ogb" = (
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_interior,
 /obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_ordmix{
+/obj/machinery/airlock_controller/incinerator_ordmix{
 	pixel_y = 23
 	},
 /turf/open/floor/engine,
@@ -49381,7 +49379,7 @@
 /area/station/science/ordnance/bomb)
 "qKN" = (
 /obj/structure/bed/dogbed/ian,
-/mob/living/simple_animal/pet/dog/corgi/ian,
+/mob/living/basic/pet/dog/corgi/ian,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
@@ -53247,7 +53245,6 @@
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/airlock/research/glass{
 	name = "Cooling Room";
-	req_access_txt = "8"
 	},
 /obj/effect/turf_decal/stripes,
 /obj/effect/turf_decal/stripes{
@@ -61891,7 +61888,7 @@
 "vaq" = (
 /obj/structure/safe,
 /obj/item/storage/secure/briefcase{
-	contents = (/obj/item/clothing/suit/armor/vest,/obj/item/gun/ballistic/automatic/pistol,/obj/item/suppressor,/obj/item/melee/baton/telescopic,/obj/item/clothing/mask/balaclava,/obj/item/bodybag,/obj/item/soap/nanotrasen)
+	contents = list(obj/item/clothing/suit/armor/vest,obj/item/gun/ballistic/automatic/pistol,obj/item/suppressor,obj/item/melee/baton/telescopic,obj/item/clothing/mask/balaclava,obj/item/bodybag,obj/item/soap/nanotrasen)
 	},
 /obj/item/storage/backpack/duffelbag/syndie/hitman,
 /obj/item/card/id/advanced/silver/reaper,
