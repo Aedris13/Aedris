@@ -40,7 +40,7 @@ Exclude = AUTOADMIN
 Edit =
 
 Name = Moderator
-Include = ADMIN
+Include = ADMIN BAN SPAWN
 Exclude =
 Edit =
 
@@ -55,16 +55,16 @@ Exclude =
 Edit =
 
 Name = Badmin
-Include = @ POSSESS POLL BUILD SERVER FUN
+Include = EVERYTHING
 Exclude =
-Edit =
+Edit = EVERYTHING
 
 Name = Game Admin
-Include = @ STEALTH SOUND DEBUG
+Include = @ STEALTH SOUND
 Exclude =
 Edit =
 
-Name = Game Master
+Name = Head Admin
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
@@ -75,6 +75,11 @@ Exclude = AUTOADMIN
 Edit = EVERYTHING
 
 Name = Host
+Include = EVERYTHING
+Exclude =
+Edit = EVERYTHING
+
+Name = Senior Admin
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING

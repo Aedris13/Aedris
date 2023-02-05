@@ -1,5 +1,13 @@
-<!-- Most valid html will work in here, but you have to use URL links for images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<html>
+<body>
+<body style="background-color:powderblue;">
 
-<i>This server is running a /tg/station 13 Git build.</i>
+<h1>Bem vindo ao Cogumelo Station!</h1>
+<h1>Não se esqueça de ler as regras em nosso discord.</h1>
+
+<p><a href="https://discord.gg/CSYsBsGhdz">Clique aqui para entrar em nosso discord</a></p>
+
+</body>
+</html>
+
