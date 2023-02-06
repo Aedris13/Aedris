@@ -5395,10 +5395,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/maintenance/port/central)
-"dWW" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/station/security/prison/safe)
 "dWY" = (
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/bot,
@@ -15313,9 +15309,6 @@
 "mhs" = (
 /obj/structure/window/reinforced{
 	dir = 8
-	},
-/obj/structure/chair/sofa/right{
-	dir = 4
 	},
 /obj/structure/chair/sofa/right{
 	dir = 4
@@ -70495,8 +70488,8 @@ kmc
 kmc
 xRB
 xRB
-dWW
-dWW
+xJs
+xJs
 xRB
 isD
 bIb
