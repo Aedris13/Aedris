@@ -3621,7 +3621,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/evac_maintenance)
 "cEw" = (
-/obj/item/bodypart/r_arm/monkey,
+/obj/item/bodypart/arm/right/monkey,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/cult,
 /area/station/maintenance/evac_maintenance)
@@ -5395,10 +5395,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/maintenance/port/central)
-"dWW" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/station/security/prison/safe)
 "dWY" = (
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/bot,
@@ -5966,7 +5962,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/office)
 "eyr" = (
-/obj/item/bodypart/r_leg/monkey,
+/obj/item/bodypart/leg/right/monkey,
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/cult,
 /area/station/maintenance/evac_maintenance)
@@ -7638,7 +7634,7 @@
 /obj/item/paper_bin{
 	pixel_y = 6
 	},
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /turf/open/floor/plating,
 /area/station/maintenance/space_hut/observatory)
 "fWj" = (
@@ -8477,7 +8473,7 @@
 /turf/open/floor/iron/dark/corner,
 /area/station/engineering/atmos)
 "gzp" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/hfr_room)
@@ -10741,7 +10737,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/engine/atmos/lesser)
 "izj" = (
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/cult_chapel_maint)
@@ -10932,7 +10928,7 @@
 /area/station/maintenance/evac_maintenance/upper)
 "iIs" = (
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
-/obj/item/bodypart/l_arm/monkey,
+/obj/item/bodypart/arm/right/monkey,
 /turf/open/floor/cult,
 /area/station/maintenance/evac_maintenance)
 "iIQ" = (
@@ -13233,7 +13229,7 @@
 /obj/item/pen{
 	pixel_x = -7
 	},
-/obj/item/reagent_containers/cup/glass/britcup{
+/obj/item/reagent_containers/cup/glass/mug/britcup{
 	pixel_x = 6;
 	pixel_y = -4
 	},
@@ -15317,14 +15313,11 @@
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
-/obj/structure/chair/sofa/right{
-	dir = 4
-	},
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet/green,
 /area/station/hallway/secondary/entry)
 "mhx" = (
-/obj/item/bodypart/l_leg/monkey,
+/obj/item/bodypart/leg/right/monkey,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/cult,
 /area/station/maintenance/evac_maintenance)
@@ -17295,7 +17288,7 @@
 /area/station/hallway/secondary/entry)
 "nGE" = (
 /obj/structure/table,
-/obj/item/candle{
+/obj/item/flashlight/flare/candle{
 	pixel_x = -8;
 	pixel_y = 11
 	},
@@ -17382,7 +17375,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/project)
 "nJF" = (
-/obj/machinery/mineral/equipment_vendor,
+/obj/machinery/computer/order_console/mining,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "nJN" = (
@@ -19162,7 +19155,7 @@
 /area/station/engineering/atmos/hfr_room)
 "oWa" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/luchador/enzo,
 /turf/open/floor/iron,
 /area/station/maintenance/abandon_cafeteria)
@@ -24935,7 +24928,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_atmos{
+/obj/machinery/airlock_controller/incinerator_atmos{
 	pixel_x = -7;
 	pixel_y = 22
 	},
@@ -29419,7 +29412,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/common/cafeteria)
 "xgt" = (
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -70495,8 +70488,8 @@ kmc
 kmc
 xRB
 xRB
-dWW
-dWW
+xJs
+xJs
 xRB
 isD
 bIb

@@ -1673,7 +1673,7 @@
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/delivery/red,
 /obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_y = 6
 	},
 /turf/open/floor/iron/dark,
@@ -3343,7 +3343,7 @@
 	pixel_x = -8;
 	pixel_y = 8
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
@@ -3798,7 +3798,7 @@
 /area/station/maintenance/aft/upper)
 "aOS" = (
 /obj/effect/decal/cleanable/cobweb,
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /turf/open/floor/iron,
 /area/station/maintenance/fore/upper)
@@ -4442,7 +4442,7 @@
 /area/station/command/captain_kitchen)
 "bbQ" = (
 /obj/structure/table,
-/obj/item/shield/riot/buckler,
+/obj/item/shield/buckler,
 /turf/open/floor/plating,
 /area/station/maintenance/port/upper)
 "bbS" = (
@@ -6334,8 +6334,8 @@
 /area/station/medical/chemistry)
 "bCC" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner{
@@ -8406,7 +8406,7 @@
 /obj/structure/bed/dogbed{
 	name = "Walter's Dogbed"
 	},
-/mob/living/simple_animal/pet/dog/bullterrier{
+/mob/living/basic/pet/dog/bullterrier{
 	desc = "It's Walter, he bites criminals just as well as he bites toddlers";
 	name = "Walter";
 	real_name = "Walter"
@@ -9239,7 +9239,6 @@
 "cET" = (
 /obj/machinery/door/airlock/research{
 	name = "Bomb Assembly";
-	req_access_txt = "8"
 	},
 /obj/machinery/door/firedoor/heavy,
 /obj/structure/disposalpipe/segment,
@@ -9440,8 +9439,8 @@
 /obj/item/clothing/neck/cloak/rd,
 /obj/item/clothing/neck/mantle/rdmantle,
 /obj/item/clothing/suit/hooded/wintercoat/science/rd,
-/obj/item/clothing/head/beret/science/fancy/rd,
-/obj/item/clothing/head/beret/science/fancy/rd/alt,
+/obj/item/clothing/head/beret/science/fancy,
+/obj/item/clothing/head/beret/science/rd/alt,
 /turf/open/floor/carpet/purple,
 /area/station/command/heads_quarters/rd)
 "cJy" = (
@@ -14260,8 +14259,8 @@
 	dir = 8
 	},
 /obj/structure/curtain/cloth,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/carpet/black,
 /area/station/service/barber)
 "ewm" = (
@@ -15091,7 +15090,7 @@
 /area/station/maintenance/abandon_wrestle)
 "eNl" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/restraints/handcuffs,
 /obj/item/clothing/mask/muzzle,
 /obj/effect/decal/cleanable/dirt,
@@ -15202,7 +15201,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
-/obj/item/clothing/gloves/color/latex{
+/obj/item/clothing/gloves/latex{
 	pixel_x = 4;
 	pixel_y = 9
 	},
@@ -17011,8 +17010,8 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
@@ -18746,7 +18745,7 @@
 /obj/item/clothing/head/caphat/beret/alt,
 /obj/item/clothing/head/hats/caphat/parade,
 /obj/item/clothing/head/hats/caphat,
-/obj/item/clothing/gloves/color/captain,
+/obj/item/clothing/gloves/captain,
 /obj/item/clothing/neck/mantle/capmantle,
 /turf/open/floor/carpet/blue,
 /area/station/command/heads_quarters/captain/private)
@@ -21633,7 +21632,7 @@
 /area/station/maintenance/port/upper)
 "hgB" = (
 /obj/structure/table/glass,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/healthanalyzer,
 /obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/science,
@@ -22391,7 +22390,7 @@
 /turf/open/floor/carpet/black,
 /area/station/service/barber)
 "htQ" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/lower)
 "hul" = (
@@ -27745,7 +27744,7 @@
 /area/station/maintenance/abandon_diner)
 "jhO" = (
 /obj/structure/table,
-/obj/item/modular_computer/tablet/pda/clown,
+/obj/item/modular_computer/pda/clown,
 /turf/open/floor/noslip,
 /area/station/maintenance/gag_room)
 "jif" = (
@@ -39770,7 +39769,6 @@
 "nsb" = (
 /obj/machinery/door/airlock/research{
 	name = "Bomb Assembly";
-	req_access_txt = "8"
 	},
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
@@ -41244,7 +41242,6 @@
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Toxins Maintenance";
-	req_access_txt = "8"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /turf/open/floor/plating,
@@ -41962,7 +41959,7 @@
 "ogb" = (
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_interior,
 /obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_ordmix{
+/obj/machinery/airlock_controller/incinerator_ordmix{
 	pixel_y = 23
 	},
 /turf/open/floor/engine,
@@ -46365,8 +46362,8 @@
 /area/station/maintenance/abandon_diner)
 "pHK" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/reagent_containers/spray/cleaner,
@@ -49217,8 +49214,8 @@
 /area/station/command/meeting_room/council)
 "qHt" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/gloves/color/latex,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/glasses/science,
 /obj/machinery/status_display/evac/directional/west,
 /turf/open/floor/iron/dark,
@@ -49382,7 +49379,7 @@
 /area/station/science/ordnance/bomb)
 "qKN" = (
 /obj/structure/bed/dogbed/ian,
-/mob/living/simple_animal/pet/dog/corgi/ian,
+/mob/living/basic/pet/dog/corgi/ian,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
@@ -53248,7 +53245,6 @@
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/airlock/research/glass{
 	name = "Cooling Room";
-	req_access_txt = "8"
 	},
 /obj/effect/turf_decal/stripes,
 /obj/effect/turf_decal/stripes{
@@ -55772,7 +55768,7 @@
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /obj/item/gun/ballistic/automatic/pistol/toy/riot,
 /obj/item/melee/baton,
-/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/toggleable/riot,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
@@ -55959,7 +55955,7 @@
 /area/station/medical/medbay/central)
 "sVL" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/hemostat,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/abandon_exam/cat)
@@ -61891,9 +61887,7 @@
 /area/blueshield)
 "vaq" = (
 /obj/structure/safe,
-/obj/item/storage/secure/briefcase{
-	contents = newlist(/obj/item/clothing/suit/armor/vest,/obj/item/gun/ballistic/automatic/pistol,/obj/item/suppressor,/obj/item/melee/baton/telescopic,/obj/item/clothing/mask/balaclava,/obj/item/bodybag,/obj/item/soap/nanotrasen)
-	},
+/obj/item/storage/secure/briefcase/riches,
 /obj/item/storage/backpack/duffelbag/syndie/hitman,
 /obj/item/card/id/advanced/silver/reaper,
 /obj/item/lazarus_injector,
@@ -66557,7 +66551,7 @@
 /turf/open/floor/iron,
 /area/station/science/ordnance)
 "wJA" = (
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/suit/apron/surgical,
 /obj/item/clothing/mask/surgical,
 /obj/item/surgical_drapes,

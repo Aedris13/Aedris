@@ -79,6 +79,21 @@ Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
 
+Name = Queen of Hearts
+Include = EVERYTHING
+Exclude =
+Edit = EVERYTHING
+
+Name = Head Coder
+Include = EVERYTHING
+Exclude =
+Edit = EVERYTHING
+
+Name = Head Admin
+Include = EVERYTHING
+Exclude =
+Edit = EVERYTHING
+
 Name = Coder
 Include = DEBUG VAREDIT SERVER SPAWN POLL
 Exclude = AUTOADMIN
