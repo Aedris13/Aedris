@@ -19,19 +19,19 @@ $include auxtools.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+# SERVERNAME Aedris Station 13 —
 
 ## Server tagline: This will appear right below the server's title.
-# SERVERTAGLINE A generic TG-based server
+# SERVERTAGLINE <a href="discord.gg/C2Ps4fKBJz">[Discord]</a></p> Servidor 100% HueHue BR(slaves to cazumok)
 
 ## Discord Link: This is the link to Skyrat's discord server
-# DISCORD_LINK https://discord.gg/hGpZ4Z3
+# DISCORD_LINK discord.gg/C2Ps4fKBJz
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Aedris Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 #HUB
@@ -482,12 +482,6 @@ DEFAULT_VIEW_SQUARE 15x15
 ## Enable automatic profiling - Byond 513.1506 and newer only.
 #AUTO_PROFILE
 
-## Threshold (in deciseconds) for real time between ticks before we start dumping profiles
-DRIFT_DUMP_THRESHOLD 40
-
-## How long to wait (in deciseconds) after a profile dump before logging another tickdrift sourced one
-DRIFT_PROFILE_DELAY 150
-
 ## Uncomment to enable global ban DB using the provided URL. The API should expect to receive a ckey at the end of the URL.
 ## More API details can be found here: https://centcom.melonmesa.com
 #CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
@@ -597,9 +591,3 @@ TOAST_NOTIFICATION_ON_INIT
 
 ## Causes configuration errors to spit out runtimes
 CONFIG_ERRORS_RUNTIME
-
-## Restricts client uploads to the server, defined in bytes, default is 0.5MB
-UPLOAD_LIMIT 524288
-
-## Restricts admin client uploads to the server, defined in bytes, default is 5MB
-UPLOAD_LIMIT_ADMIN 5242880

@@ -1,5 +1,16 @@
-<!-- Most valid html will work in here, but you have to use URL links for images. -->
-
-<h1>Welcome to Space Station 13!</h1>
-
-<i>This server is running a /tg/station 13 Git build.</i>
+<h1 style="text-align: center;">
+	<img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070703776744349717/welcome.png" alt="Bem vindo ao Aedris 13!" title="Bem vindo ao Aedris 13">
+</h1>
+<table style="margin: 0 auto;">
+	<tr>
+		<td width="25%" style="text-align: center;"><a href="https://tgstation13.org/wiki"><img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070704535678488648/wiki.png" alt="Wiki" title="Visite nossa wiki"></a></td>
+		<td width="25%" style="text-align: center;"><a href="https://discord.gg/C2Ps4fKBJz"><img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070704534889959474/discord.png" alt="Discord" title="Discord"></a></td>
+		<td width="25%" style="text-align: center;"><a href="https://github.com/Aedris13/Aedris"><img src="https://cdn.discordapp.com/attachments/1069128960044175380/1070704535439421440/github.png" alt="Código Fonte" title="Código Fonte"></a></td>
+	</tr>
+</table>
+<h2>Welcome!</h2>
+<div>
+	<strong>New to the game?</strong> <a href="https://tgstation13.org/wiki/Starter_guide">Veja o guia de iniciantes!</a>
+	<br><strong>Precisa de um admin?</strong> aperte<strong>F1</strong> ou use o comando de <a href="byond://winset?command=adminhelp">adminhelp</a>.
+</div>
+<br><strong>Se divirta!</strong>
